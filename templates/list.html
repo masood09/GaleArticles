@@ -25,14 +25,14 @@
                 </div>
             </div>
         </header>
-    {% endif %}
 
-    <hr>
+        <hr>
+    {% endif %}
 
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                {% for article in article_list %}
+                {% for article in articles %}
                     <div class="post">
                         <h2 class="post-title">
                             <a href="#">
@@ -43,12 +43,35 @@
                             Posted by <a href="#">{{ article.author.get_full_name }}</a> on {{ article.publication_date|date:'F jS, Y' }}</p>
 
                         <div class="post-body">
-                            {{ random_article.body_text|linebreaks|truncatewords_html:50 }}
+                            {{ article.body_text|linebreaks|truncatewords_html:50 }}
                         </div>
                     </div>
 
                     <hr>
                 {% endfor %}
+
+                <ul class="pager">
+                    {% if articles.has_previous %}
+                        <li class="prev">
+                            <a href="?page={{ articles.previous_page_number }}" class="pull-left">
+                                &larr;
+                                <span class="hidden-xs">
+                                    Older Posts
+                                </span>
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% if articles.has_next %}
+                        <li class="next">
+                            <a href="?page={{ articles.next_page_number }}">
+                                <span class="hidden-xs">
+                                    Newer Posts
+                                </span>
+                                &rarr;
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
             </div>
         </div>
     </div>
