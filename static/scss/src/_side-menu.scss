@@ -1,0 +1,91 @@
+a.nav-expander {
+  background: none repeat scroll 0 0 $text-color;
+  color: white;
+  display: block;
+  font-size: 15px;
+  font-weight: 800;
+  height: 50px;
+  margin-right: 0;
+  padding: 15px 24px 30px;
+  position: absolute;
+  left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 10px;
+  z-index: 12;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.fixed {
+    position: fixed;
+  }
+}
+
+nav {
+  background: $text-color;
+  display: block;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  left: -320px;
+  font-size: 16px;
+  top: 0;
+  width: 320px;
+  z-index: 2000;
+
+  -webkit-transition: left 0.3s ease-in-out 0s;
+  -moz-transition: left 0.3s ease-in-out 0s;
+  -o-transition: left 0.3s ease-in-out 0s;
+  transition: left 0.3s ease-in-out 0s;
+}
+
+body.nav-expanded {
+  margin-right: 0;
+
+  -webkit-transition: left 0.4s ease-in-out 0s;
+  -moz-transition: left 0.4s ease-in-out 0s;
+  -o-transition: left 0.4s ease-in-out 0s;
+  transition: left 0.4s ease-in-out 0s;
+
+  nav {
+    left: 0;
+  }
+}
+
+#nav-close {
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+.main-menu {
+  padding-top: 12px;
+
+  li {
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 12px;
+
+    &.close__menu {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    &.image__menu {
+      margin-right: 0;
+      margin-left: 0;
+      border-bottom: 1px solid $gray;
+    }
+
+    a {
+      color: #ccc;
+      //text-decoration: none;
+
+      &:hover {
+        color: white;
+        //text-decoration: none;
+      }
+    }
+  }
+}
