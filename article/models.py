@@ -20,7 +20,7 @@ class Category(models.Model):
 
 class Article(models.Model):
     title = models.CharField(max_length=255, unique=True)
-    slug = models.SlugField(unique=True, editable=False)
+    slug = models.SlugField(unique=True, editable=False, max_length=255)
     author = models.ForeignKey('auth.User')
     publication_date = models.DateField()
     category = models.ForeignKey(Category)
