@@ -37,6 +37,14 @@ $RECYCLE.BIN\
 # files to ignore
 db.sqlite3
 
+!uploads/
+
+uploads/*
+!uploads/images/
+
+uploads/images/*
+!uploads/images/demo/
+
 # extensions to ignore
 *.log
 *.pot
