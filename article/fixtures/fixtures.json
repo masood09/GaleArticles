@@ -1,0 +1,38 @@
+[
+  {
+    "model": "article.category",
+    "pk": 1,
+    "fields": {
+      "title": "Sunset",
+      "created_at": "2016-04-14T18:34:06.158Z",
+      "updated_at": "2016-04-14T18:34:06.158Z"
+    }
+  },
+  {
+    "model": "article.category",
+    "pk": 2,
+    "fields": {
+      "title": "Countryside",
+      "created_at": "2016-04-14T18:34:06.158Z",
+      "updated_at": "2016-04-14T18:34:06.158Z"
+    }
+  },
+  {
+    "model": "article.category",
+    "pk": 3,
+    "fields": {
+      "title": "Cathedral",
+      "created_at": "2016-04-14T18:34:06.158Z",
+      "updated_at": "2016-04-14T18:34:06.158Z"
+    }
+  },
+  {
+    "model": "article.category",
+    "pk": 4,
+    "fields": {
+      "title": "People",
+      "created_at": "2016-04-14T18:34:06.158Z",
+      "updated_at": "2016-04-14T18:34:06.158Z"
+    }
+  }
+]
