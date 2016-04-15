@@ -14,3 +14,10 @@ def helper_get_published_article():
     ).all().order_by(
         'publication_date'
     )
+
+def helper_get_random_articles(count=4):
+    return Article.objects.exclude(
+        publication_date__gt=datetime.date.today()
+    ).order_by(
+        '?'
+    )[:count]

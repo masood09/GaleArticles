@@ -1,0 +1,28 @@
+.read__next {
+  h2.read__next-title {
+    padding: 0 20px;
+  }
+
+  .slick__carousel {
+    .slider__item {
+      img {
+        max-height: 200px;
+      }
+
+      &.slick-slide {
+        padding: 0 20px;
+
+        img {
+          height: auto;
+          max-height: none;
+        }
+      }
+    }
+  }
+}
+
+.slick-slide {
+  img {
+    width: 100%;
+  }
+}

@@ -9,4 +9,6 @@ $(document).ready(function(){
         e.preventDefault();
         $('body').removeClass('nav-expanded');
     });
+
+    $('.slick__carousel').slick();
 });
