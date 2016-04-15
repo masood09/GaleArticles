@@ -1,4 +1,5 @@
 from django.db import models
+from django.template.defaultfilters import slugify
 
 
 
@@ -18,7 +19,8 @@ class Category(models.Model):
 
 
 class Article(models.Model):
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, unique=True)
+    slug = models.SlugField(unique=True)
     author = models.ForeignKey('auth.User')
     publication_date = models.DateField()
     category = models.ForeignKey(Category)
@@ -31,3 +33,7 @@ class Article(models.Model):
     def __str__(self):
         """We want the string representation of Article model to be its title"""
         return self.title
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super().save(*args, **kwargs)
