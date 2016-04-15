@@ -1,0 +1,23 @@
+# What language the project is of
+language: python
+
+# What version(s) of python to test against
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.5-dev" # 3.5 development brach
+  - "nightly" # currently points to 3.6-dev
+
+env:
+  - DJANGO_VERSION=1.8.12
+  - DJANGO_VERSION=1.9.5
+
+# What command to run to install dependencies
+install:
+  - pip install -r requirements/testing.txt
+  - pip install -q Django==$DJANGO_VERSION
+
+# What script to run?
+script:
+  - python manage.py test
