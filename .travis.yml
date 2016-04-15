@@ -9,15 +9,25 @@ python:
   - "3.5-dev" # 3.5 development brach
   - "nightly" # currently points to 3.6-dev
 
+services:
+  - mysql
+  - postgresql
+
 env:
-  - DJANGO_VERSION=1.8.12
-  - DJANGO_VERSION=1.9.5
+  - DJANGO_VERSION=1.8.12 TRAVIS_DB=sqlite
+  - DJANGO_VERSION=1.8.12 TRAVIS_DB=postgres
+  - DJANGO_VERSION=1.8.12 TRAVIS_DB=mysql
+  - DJANGO_VERSION=1.9.5 TRAVIS_DB=sqlite
+  - DJANGO_VERSION=1.9.5 TRAVIS_DB=postgres
+  - DJANGO_VERSION=1.9.5 TRAVIS_DB=mysql
 
 # What command to run to install dependencies
 install:
   - pip install -r requirements/testing.txt
   - pip install -q Django==$DJANGO_VERSION
   - pip install -q coveralls
+  - if [[ $TRAVIS_DB == mysql ]]; then pip install -q mysqlclient; fi
+  - if [[ $TRAVIS_DB == postgres ]]; then pip install -q psycopg2; fi
 
 # What script to run?
 script:

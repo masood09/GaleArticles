@@ -122,3 +122,20 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+"""
+When we will be running the tests of Travis, we will be utilizing MySQL, PostgreSQL and SQLite database
+backend. When the Travis test session runs, depending on which database engine needs to be used and environment
+variable will be set. Below we will check the environment variable and load the appropriate database settings.
+"""
+if os.getenv('TRAVIS_DB', None) == 'postgres':
+    try:
+        from .config.travis_db_postgres import *
+    except ImportError as e:
+        pass
+elif os.getenv('TRAVIS_DB', None) == 'mysql':
+    try:
+        from .config.travis_db_mysql import *
+    except ImportError as e:
+        pass
