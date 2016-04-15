@@ -25,4 +25,13 @@
       font-size: $font-size-base;
     }
   }
+
+  .post-optional-image {
+    width: 100%;
+    margin-top: 25px;
+
+    @media (min-width: $screen-sm-min) {
+      margin-top: 150px;
+    }
+  }
 }
