@@ -1,0 +1,50 @@
+###Windows###
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN\
+
+
+###Linux###
+
+!.tfignore
+*~
+
+# KDE
+.directory
+
+
+###OSX###
+
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+
+##Django##
+
+# files to ignore
+db.sqlite3
+
+# extensions to ignore
+*.log
+*.pot
+*.pyc
+
+
+
+##IDE's##
+
+# directories to ignore
+.idea/
