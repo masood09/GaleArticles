@@ -1,8 +1,15 @@
 from django.shortcuts import render
-from django.views.generic.base import TemplateView
+from .helpers import *
 
 
 
-class HomeView(TemplateView):
+def listing(request):
+    random_article = helper_get_random_article()
 
-    template_name = 'index.html'
+    return render(
+        request,
+        'list.html',
+        {
+            'random_article': random_article
+        }
+    )

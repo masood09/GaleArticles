@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if random_article %}
+        <header class="intro">
+            <div class="intro__image" style="background-image: url('{{ MEDIA_URL }}{{ random_article.hero_image }}')"></div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="post">
+                            <h1 class="post-title">
+                                <a href="#">{{ random_article.title }}</a>
+                            </h1>
+
+                            <p class="post-meta">
+                                Posted by <a href="#">{{ random_article.author }}</a> on {{ random_article.publication_date|date:'F jS, Y' }}
+                            </p>
+
+                            <div class="post-body">
+                                {{ random_article.body_text|linebreaks|truncatewords_html:100 }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    {% endif %}
+{% endblock content %}

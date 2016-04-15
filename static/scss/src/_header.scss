@@ -1,0 +1,36 @@
+.intro {
+  .intro__image {
+    background-color: $gray;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+
+    @media (min-width: $screen-sm-min) {
+      min-height: 500px;
+    }
+  }
+
+  .post {
+    .post-title {
+      font-size: 30px;
+
+      @media (min-width: $screen-sm-min) {
+        font-size: 50px;
+      }
+
+      @media (min-width: $screen-desktop) {
+        text-align: center;
+      }
+    }
+
+    .post-meta {
+      @media (min-width: $screen-desktop) {
+        text-align: center;
+      }
+    }
+  }
+}
