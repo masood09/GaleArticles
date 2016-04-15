@@ -1,0 +1,15 @@
+{
+  "name": "gale-articles",
+  "version": "1.0.0",
+  "email": "masood.ahmed09@gmail.com",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-sass": "*",
+    "gulp-cssmin": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-if": "*",
+    "del": "*"
+  }
+}
