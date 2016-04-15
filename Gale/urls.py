@@ -22,6 +22,6 @@ from article import views
 
 urlpatterns = [
     url(r'^$', views.listing, name='index'),
-    url(r'^blog/(?P<article_id>[0-9]+)/$', views.detail, name='article__detail'),
+    url(r'^blog/(?P<slug>[\w\-]+)/$', views.detail, name='article__detail'),
     url(r'^admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

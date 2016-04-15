@@ -37,12 +37,12 @@ def listing(request):
     )
 
 
-def detail(request, article_id):
+def detail(request, slug):
 
     try:
         article = Article.objects.filter(
             publication_date__lte = datetime.date.today()
-        ).get(pk=article_id)
+        ).get(slug=slug)
     except Article.DoesNotExist:
         raise Http404("Article does not exist")
 
