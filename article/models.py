@@ -27,3 +27,7 @@ class Article(models.Model):
     body_text = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True, editable=False)
     updated_at = models.DateTimeField(auto_now=True, editable=False)
+
+    def __str__(self):
+        """We want the string representation of Article model to be its title"""
+        return self.title
