@@ -26,4 +26,30 @@
             </div>
         </header>
     {% endif %}
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {% for article in article_list %}
+                    <div class="post">
+                        <h2 class="post-title">
+                            <a href="#">
+                                {{ article.title }}
+                            </a>
+                        </h2>
+                        <p class="post-meta">
+                            Posted by <a href="#">{{ article.author.get_full_name }}</a> on {{ article.publication_date|date:'F jS, Y' }}</p>
+
+                        <div class="post-body">
+                            {{ random_article.body_text|linebreaks|truncatewords_html:50 }}
+                        </div>
+                    </div>
+
+                    <hr>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 {% endblock content %}
