@@ -86,5 +86,383 @@
       "groups": [],
       "user_permissions": []
     }
+  },
+
+
+  {
+    "model": "article.article",
+    "pk": 1,
+    "fields": {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "author": 4,
+      "publication_date": "2013-01-01",
+      "category": 3,
+      "hero_image": "images/demo/1.jpg",
+      "optional_image": "images/demo/2.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tu enim ista lenius, hic Stoicorum more nos vexat. Semper enim ita adsumit aliquid, ut ea, quae prima dederit, non deserat. Quando enim Socrates, qui parens philosophiae iure dici potest, quicquam tale fecit? Quid me istud rogas? Age nunc isti doceant, vel tu potius quis enim ista melius? Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Duo Reges: constructio interrete.\r\n\r\nNam si amitti vita beata potest, beata esse non potest. Si quicquam extra virtutem habeatur in bonis. Septem autem illi non suo, sed populorum suffragio omnium nominati sunt. Tu vero, inquam, ducas licet, si sequetur; Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Fortemne possumus dicere eundem illum Torquatum? Quamquam id quidem licebit iis existimare, qui legerint. Verum hoc idem saepe faciamus. Inde sermone vario sex illa a Dipylo stadia confecimus. Quis Aristidem non mortuum diligit? Quicquid porro animo cernimus, id omne oritur a sensibus; Dat enim intervalla et relaxat.\r\n\r\nQuo plebiscito decreta a senatu est consuli quaestio Cn. Illud quaero, quid ei, qui in voluptate summum bonum ponat, consentaneum sit dicere.\r\n\r\nVitiosum est enim in dividendo partem in genere numerare. Omnia peccata paria dicitis. Ergo id est convenienter naturae vivere, a natura discedere. Age, inquies, ista parva sunt. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Dolere malum est: in crucem qui agitur, beatus esse non potest. Non est igitur voluptas bonum. Sic enim censent, oportunitatis esse beate vivere.\r\n\r\nSi quicquam extra virtutem habeatur in bonis. Quodsi ipsam honestatem undique pertectam atque absolutam. Comprehensum, quod cognitum non habet? Itaque eos id agere, ut a se dolores, morbos, debilitates repellant.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 2,
+    "fields": {
+      "title": "Tu enim ista lenius, hic Stoicorum more nos vexat.",
+      "author": 2,
+      "publication_date": "2013-01-10",
+      "category": 2,
+      "hero_image": "images/demo/2.jpg",
+      "optional_image": "images/demo/3.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset, finem ille. Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete. Nos cum te, M. Quae animi affectio suum cuique tribuens atque hanc, quam dico. Piso, familiaris noster, et alia multa et hoc loco Stoicos irridebat: Quid enim? Eiuro, inquit adridens, iniquum, hac quidem de re; Quid enim est a Chrysippo praetermissum in Stoicis? Non igitur bene.\r\n\r\nNe amores quidem sanctos a sapiente alienos esse arbitrantur. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Ait enim se, si uratur, Quam hoc suave! dicturum. Isto modo ne improbos quidem, si essent boni viri. Eadem nunc mea adversum te oratio est. Aliter enim explicari, quod quaeritur, non potest. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L.\r\n\r\nEam tum adesse, cum dolor omnis absit; Quod ea non occurrentia fingunt, vincunt Aristonem; Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Illi enim inter se dissentiunt. Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Estne, quaeso, inquam, sitienti in bibendo voluptas? Quis istud, quaeso, nesciebat?\r\n\r\nApud imperitos tum illa dicta sunt, aliquid etiam coronae datum; Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Utrum igitur tibi litteram videor an totas paginas commovere? Summum a vobis bonum voluptas dicitur.\r\n\r\nNon enim iam stirpis bonum quaeret, sed animalis. Non laboro, inquit, de nomine. At ille pellit, qui permulcet sensum voluptate. Illud dico, ea, quae dicat, praeclare inter se cohaerere. Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Quo modo autem philosophus loquitur? Quod autem satis est, eo quicquid accessit, nimium est; Nam his libris eum malo quam reliquo ornatu villae delectari. Quia dolori non voluptas contraria est, sed doloris privatio. Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 3,
+    "fields": {
+      "title": "Semper enim ita adsumit aliquid, ut ea, quae prima dederit, non deserat.",
+      "author": 3,
+      "publication_date": "2013-01-19",
+      "category": 4,
+      "hero_image": "images/demo/3.jpg",
+      "optional_image": "images/demo/5.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Sed fortuna fortis; Duo Reges: constructio interrete. Illud non continuo, ut aeque incontentae. Eaedem res maneant alio modo.\r\n\r\nVirtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Dic in quovis conventu te omnia facere, ne doleas. Neque solum ea communia, verum etiam paria esse dixerunt. Aliud igitur esse censet gaudere, aliud non dolere. Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur? Sic enim maiores nostri labores non fugiendos tristissimo tamen verbo aerumnas etiam in deo nominaverunt. Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Maximus dolor, inquit, brevis est. Haec quo modo conveniant, non sane intellego.\r\n\r\nNon est enim vitium in oratione solum, sed etiam in moribus. Ex eorum enim scriptis et institutis cum omnis doctrina liberalis, omnis historia. Aliter enim nosmet ipsos nosse non possumus. Neminem videbis ita laudatum, ut artifex callidus comparandarum voluptatum diceretur. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Haec quo modo conveniant, non sane intellego. Quae duo sunt, unum facit. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam.\r\n\r\nErit enim instructus ad mortem contemnendam, ad exilium, ad ipsum etiam dolorem. Quid est enim aliud esse versutum? Piso, familiaris noster, et alia multa et hoc loco Stoicos irridebat: Quid enim? Quid iudicant sensus? Pisone in eo gymnasio, quod Ptolomaeum vocatur, unaque nobiscum Q. Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Poterat autem inpune; Non enim ipsa genuit hominem, sed accepit a natura inchoatum.\r\n\r\nIllud non continuo, ut aeque incontentae. Non potes, nisi retexueris illa. Quare ad ea primum, si videtur; Utram tandem linguam nescio? Consequens enim est et post oritur, ut dixi. Pisone in eo gymnasio, quod Ptolomaeum vocatur, unaque nobiscum Q.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 4,
+    "fields": {
+      "title": "Quando enim Socrates, qui parens philosophiae iure dici potest, quicquam tale fecit? Quid me istud rogas?",
+      "author": 3,
+      "publication_date": "2013-03-30",
+      "category": 3,
+      "hero_image": "images/demo/4.jpg",
+      "optional_image": "images/demo/12.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Conferam tecum, quam cuique verso rem subicias; Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L. Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Tum Torquatus: Prorsus, inquit, assentior; Verba tu fingas et ea dicas, quae non sentias? Duo Reges: constructio interrete.\r\n\r\nSemper enim ita adsumit aliquid, ut ea, quae prima dederit, non deserat. Fortemne possumus dicere eundem illum Torquatum? Sed quid sentiat, non videtis. Profectus in exilium Tubulus statim nec respondere ausus; Primum divisit ineleganter; Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis.\r\n\r\nIstam voluptatem perpetuam quis potest praestare sapienti? Mihi quidem Antiochum, quem audis, satis belle videris attendere. Occultum facinus esse potuerit, gaudebit;\r\n\r\nFacile est hoc cernere in primis puerorum aetatulis. Idem iste, inquam, de voluptate quid sentit? Nemo nostrum istius generis asotos iucunde putat vivere. Summum ením bonum exposuit vacuitatem doloris; Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Isto modo ne improbos quidem, si essent boni viri. Piso igitur hoc modo, vir optimus tuique, ut scis, amantissimus.\r\n\r\nSi verbum sequimur, primum longius verbum praepositum quam bonum. Cur haec eadem Democritus? Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Illa tamen simplicia, vestra versuta. Ea possunt paria non esse. Sed ad haec, nisi molestum est, habeo quae velim. Quacumque enim ingredimur, in aliqua historia vestigium ponimus.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 5,
+    "fields": {
+      "title": "Age nunc isti doceant, vel tu potius quis enim ista melius?",
+      "author": 3,
+      "publication_date": "2013-07-15",
+      "category": 2,
+      "hero_image": "images/demo/5.jpg",
+      "optional_image": "images/demo/14.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. An quod ita callida est, ut optime possit architectari voluptates? Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. Bonum negas esse divitias, praeposìtum esse dicis? Duo Reges: constructio interrete. Quodsi vultum tibi, si incessum fingeres, quo gravior viderere, non esses tui similis;\r\n\r\nEst autem etiam actio quaedam corporis, quae motus et status naturae congruentis tenet; Quid vero? Sed mehercule pergrata mihi oratio tua. Quid ergo attinet gloriose loqui, nisi constanter loquare? Piso, familiaris noster, et alia multa et hoc loco Stoicos irridebat: Quid enim? Primum quid tu dicis breve? Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit?\r\n\r\nSed tamen intellego quid velit. Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum. At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit. Semper enim ex eo, quod maximas partes continet latissimeque funditur, tota res appellatur. Beatus sibi videtur esse moriens. Iam id ipsum absurdum, maximum malum neglegi.\r\n\r\nFacillimum id quidem est, inquam. Mihi, inquam, qui te id ipsum rogavi? Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Et harum quidem rerum facilis est et expedita distinctio. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit.\r\n\r\nQui non moveatur et offensione turpitudinis et comprobatione honestatis? Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Illa videamus, quae a te de amicitia dicta sunt. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Tum, Quintus et Pomponius cum idem se velle dixissent, Piso exorsus est. Ergo ita: non posse honeste vivi, nisi honeste vivatur?",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 6,
+    "fields": {
+      "title": "Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Duo Reges: constructio interrete.",
+      "author": 2,
+      "publication_date": "2013-07-22",
+      "category": 1,
+      "hero_image": "images/demo/6.jpg",
+      "optional_image": "images/demo/17.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui convenit? Non enim quaero quid verum, sed quid cuique dicendum sit. Sed plane dicit quod intellegit. Nec vero sum nescius esse utilitatem in historia, non modo voluptatem. Ut placet, inquit, etsi enim illud erat aptius, aequum cuique concedere. Ut pulsi recurrant? Duo Reges: constructio interrete. Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Respondeat totidem verbis. Non autem hoc: igitur ne illud quidem.\r\n\r\nEt quidem, inquit, vehementer errat; Certe non potest. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Sint ista Graecorum; Quae in controversiam veniunt, de iis, si placet, disseramus. Nunc haec primum fortasse audientis servire debemus.\r\n\r\nAn eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Cum salvum esse flentes sui respondissent, rogavit essentne fusi hostes. Ne in odium veniam, si amicum destitero tueri. Mihi, inquam, qui te id ipsum rogavi? Solum praeterea formosum, solum liberum, solum civem, stultost; Cum ageremus, inquit, vitae beatum et eundem supremum diem, scribebamus haec.\r\n\r\nSed quanta sit alias, nunc tantum possitne esse tanta. An vero, inquit, quisquam potest probare, quod perceptfum, quod. Color egregius, integra valitudo, summa gratia, vita denique conferta voluptatum omnium varietate. Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur.\r\n\r\nNunc haec primum fortasse audientis servire debemus. -, sed ut hoc iudicaremus, non esse in iis partem maximam positam beate aut secus vivendi. Quorum altera prosunt, nocent altera. Minime vero, inquit ille, consentit. Non autem hoc: igitur ne illud quidem. Sapiens autem semper beatus est et est aliquando in dolore; Explanetur igitur.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 7,
+    "fields": {
+      "title": "Nam si amitti vita beata potest, beata esse non potest.",
+      "author": 2,
+      "publication_date": "2013-10-14",
+      "category": 4,
+      "hero_image": "images/demo/7.jpg",
+      "optional_image": "images/demo/19.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Efficiens dici potest. Omnia contraria, quos etiam insanos esse vultis. Nescio quo modo praetervolavit oratio. Multa sunt dicta ab antiquis de contemnendis ac despiciendis rebus humanis; Bonum integritas corporis: misera debilitas. Age sane, inquam. Ratio quidem vestra sic cogit.\r\n\r\nOstendit pedes et pectus. Bestiarum vero nullum iudicium puto. Eiuro, inquit adridens, iniquum, hac quidem de re; Quid censes in Latino fore? Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Hoc loco discipulos quaerere videtur, ut, qui asoti esse velint, philosophi ante fiant.\r\n\r\nQuid, si etiam iucunda memoria est praeteritorum malorum? Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Tria genera bonorum; Aliud igitur esse censet gaudere, aliud non dolere. Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Sed fortuna fortis; Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Sed hoc sane concedamus. At habetur! Et ego id scilicet nesciebam! Sed ut sit, etiamne post mortem coletur? Ut placet, inquit, etsi enim illud erat aptius, aequum cuique concedere.\r\n\r\nQuod autem satis est, eo quicquid accessit, nimium est; Ita enim vivunt quidam, ut eorum vita refellatur oratio. Sed quia studebat laudi et dignitati, multum in virtute processerat. Nam si amitti vita beata potest, beata esse non potest. Sed fortuna fortis; Sed quid minus probandum quam esse aliquem beatum nec satis beatum? Atqui reperies, inquit, in hoc quidem pertinacem; Non est enim vitium in oratione solum, sed etiam in moribus.\r\n\r\nDuo Reges: constructio interrete. Et quod est munus, quod opus sapientiae? Vestri haec verecundius, illi fortasse constantius. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Qui ita affectus, beatum esse numquam probabis; Nihil ad rem! Ne sit sane;",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 8,
+    "fields": {
+      "title": "Si quicquam extra virtutem habeatur in bonis.",
+      "author": 2,
+      "publication_date": "2014-02-11",
+      "category": 2,
+      "hero_image": "images/demo/8.jpg",
+      "optional_image": "images/demo/20.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Memini me adesse P. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Certe, nisi voluptatem tanti aestimaretis. Quid in isto egregio tuo officio et tanta fide-sic enim existimo-ad corpus refers? Primum Theophrasti, Strato, physicum se voluit; Quorum altera prosunt, nocent altera. Mihi enim satis est, ipsis non satis.\r\n\r\nQuodsi ipsam honestatem undique pertectam atque absolutam. Hoc simile tandem est?\r\n\r\nNam si propter voluptatem, quae est ista laus, quae possit e macello peti? Rhetorice igitur, inquam, nos mavis quam dialectice disputare? Eorum enim est haec querela, qui sibi cari sunt seseque diligunt. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Vitiosum est enim in dividendo partem in genere numerare. Quod quidem iam fit etiam in Academia. Respondeat totidem verbis. Quid ergo? Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Neque solum ea communia, verum etiam paria esse dixerunt. Quo studio Aristophanem putamus aetatem in litteris duxisse?\r\n\r\nErgo id est convenienter naturae vivere, a natura discedere. Sed tamen enitar et, si minus multa mihi occurrent, non fugiam ista popularia. Multoque hoc melius nos veriusque quam Stoici. Heri, inquam, ludis commissis ex urbe profectus veni ad vesperum. Mihi enim erit isdem istis fortasse iam utendum. Contineo me ab exemplis.\r\n\r\nDuo Reges: constructio interrete. Non enim solum Torquatus dixit quid sentiret, sed etiam cur. Quid ad utilitatem tantae pecuniae? Mihi enim erit isdem istis fortasse iam utendum. Est autem a te semper dictum nec gaudere quemquam nisi propter corpus nec dolere. Quam ob rem tandem, inquit, non satisfacit?",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 9,
+    "fields": {
+      "title": "Septem autem illi non suo, sed populorum suffragio omnium nominati sunt.",
+      "author": 4,
+      "publication_date": "2014-04-27",
+      "category": 1,
+      "hero_image": "images/demo/9.jpg",
+      "optional_image": "images/demo/23.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quare hoc videndum est, possitne nobis hoc ratio philosophorum dare. Sed quid sentiat, non videtis. Est, ut dicis, inquam. Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Inde igitur, inquit, ordiendum est. Illis videtur, qui illud non dubitant bonum dicere -; Quam ob rem tandem, inquit, non satisfacit? Duo Reges: constructio interrete. Parvi enim primo ortu sic iacent, tamquam omnino sine animo sint.\r\n\r\nIncommoda autem et commoda-ita enim estmata et dustmata appello-communia esse voluerunt, paria noluerunt. Si qua in iis corrigere voluit, deteriora fecit. Tanta vis admonitionis inest in locis; Nobis aliter videtur, recte secusne, postea;\r\n\r\nHoc dixerit potius Ennius: Nimium boni est, cui nihil est mali. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Quis Aristidem non mortuum diligit? Dicam, inquam, et quidem discendi causa magis, quam quo te aut Epicurum reprehensum velim. Verum hoc loco sumo verbis his eandem certe vim voluptatis Epicurum nosse quam ceteros. Satis est ad hoc responsum. Quare ad ea primum, si videtur;\r\n\r\nCur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Quam illa ardentis amores excitaret sui! Cur tandem? Nam Pyrrho, Aristo, Erillus iam diu abiecti. Aliter enim nosmet ipsos nosse non possumus. Quod equidem non reprehendo;\r\n\r\nFortasse id optimum, sed ubi illud: Plus semper voluptatis? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. Quare conare, quaeso. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Expectoque quid ad id, quod quaerebam, respondeas.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 10,
+    "fields": {
+      "title": "Tu vero, inquam, ducas licet, si sequetur; Quos quidem tibi studiose et diligenter tractandos magnopere censeo.",
+      "author": 2,
+      "publication_date": "2014-12-23",
+      "category": 4,
+      "hero_image": "images/demo/10.jpg",
+      "optional_image": "images/demo/24.jpg",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter homines, aliter philosophos loqui putas oportere? Itaque his sapiens semper vacabit. Sit ista in Graecorum levitate perversitas, qui maledictis insectantur eos, a quibus de veritate dissentiunt. Nam de isto magna dissensio est. Duo Reges: constructio interrete.\r\n\r\nNon quam nostram quidem, inquit Pomponius iocans; Praeteritis, inquit, gaudeo. Non dolere, inquam, istud quam vim habeat postea videro; Videsne quam sit magna dissensio?\r\n\r\nNegare non possum. Non enim, si omnia non sequebatur, idcirco non erat ortus illinc. Que Manilium, ab iisque M. Sed quanta sit alias, nunc tantum possitne esse tanta.\r\n\r\nQuicquid porro animo cernimus, id omne oritur a sensibus; Non quam nostram quidem, inquit Pomponius iocans; Quasi ego id curem, quid ille aiat aut neget. Iam id ipsum absurdum, maximum malum neglegi. Immo alio genere; Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit?\r\n\r\nEfficiens dici potest. Si quicquam extra virtutem habeatur in bonis. Quia nec honesto quic quam honestius nec turpi turpius. Sed potestne rerum maior esse dissensio? Stoici autem, quod finem bonorum in una virtute ponunt, similes sunt illorum; Aliud igitur esse censet gaudere, aliud non dolere.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 11,
+    "fields": {
+      "title": "Fortemne possumus dicere eundem illum Torquatum?",
+      "author": 3,
+      "publication_date": "2015-03-02",
+      "category": 3,
+      "hero_image": "images/demo/11.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vide igitur ne non debeas verbis nostris uti, sententiis tuis. Cum autem in quo sapienter dicimus, id a primo rectissime dicitur. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Duo Reges: constructio interrete. Non quam nostram quidem, inquit Pomponius iocans; Respondent extrema primis, media utrisque, omnia omnibus. Fortemne possumus dicere eundem illum Torquatum? De illis, cum volemus.\r\n\r\nAtqui haec patefactio quasi rerum opertarum, cum quid quidque sit aperitur, definitio est. Sed quid minus probandum quam esse aliquem beatum nec satis beatum? Istam voluptatem perpetuam quis potest praestare sapienti? Primum Theophrasti, Strato, physicum se voluit; Nobis aliter videtur, recte secusne, postea; Tu vero, inquam, ducas licet, si sequetur;\r\n\r\nQuo igitur, inquit, modo? Bonum incolumis acies: misera caecitas. Tu quidem reddes; Consequentia exquirere, quoad sit id, quod volumus, effectum. Quamquam id quidem, infinitum est in hac urbe; Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Atqui reperies, inquit, in hoc quidem pertinacem;\r\n\r\nVide igitur ne non debeas verbis nostris uti, sententiis tuis. Re mihi non aeque satisfacit, et quidem locis pluribus. Eaedem res maneant alio modo. Sed quid attinet de rebus tam apertis plura requirere? Verum hoc loco sumo verbis his eandem certe vim voluptatis Epicurum nosse quam ceteros. Eam stabilem appellas.\r\n\r\nAd corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? At certe gravius. Quantum Aristoxeni ingenium consumptum videmus in musicis? Omnia contraria, quos etiam insanos esse vultis. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Ad corpus diceres pertinere-, sed ea, quae dixi, ad corpusne refers? Suo genere perveniant ad extremum;",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 12,
+    "fields": {
+      "title": "Quamquam id quidem licebit iis existimare, qui legerint.",
+      "author": 4,
+      "publication_date": "2015-03-21",
+      "category": 1,
+      "hero_image": "images/demo/12.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Honesta oratio, Socratica, Platonis etiam. Easdemne res? Eadem nunc mea adversum te oratio est.\r\n\r\nHoc est dicere: Non reprehenderem asotos, si non essent asoti. Quid de Platone aut de Democrito loquar? Quodcumque in mentem incideret, et quodcumque tamquam occurreret. Honesta oratio, Socratica, Platonis etiam. Scio enim esse quosdam, qui quavis lingua philosophari possint; Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi. Quae si potest singula consolando levare, universa quo modo sustinebit? At Zeno eum non beatum modo, sed etiam divitem dicere ausus est.\r\n\r\nRecte, inquit, intellegis. Duo Reges: constructio interrete. Negare non possum. Quodsi vultum tibi, si incessum fingeres, quo gravior viderere, non esses tui similis; Estne, quaeso, inquam, sitienti in bibendo voluptas?\r\n\r\nCerte non potest. Illa argumenta propria videamus, cur omnia sint paria peccata. Duae sunt enim res quoque, ne tu verba solum putes. Re mihi non aeque satisfacit, et quidem locis pluribus. Qui autem esse poteris, nisi te amor ipse ceperit? Itaque eos id agere, ut a se dolores, morbos, debilitates repellant.\r\n\r\nOmnia peccata paria dicitis. Quid ergo hoc loco intellegit honestum? Illa argumenta propria videamus, cur omnia sint paria peccata.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 13,
+    "fields": {
+      "title": "Verum hoc idem saepe faciamus.",
+      "author": 3,
+      "publication_date": "2015-04-05",
+      "category": 3,
+      "hero_image": "images/demo/13.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Collige omnia, quae soletis: Praesidium amicorum. Quae diligentissime contra Aristonem dicuntur a Chryippo. Duo Reges: constructio interrete.\r\n\r\nVidesne quam sit magna dissensio? Ut in geometria, prima si dederis, danda sunt omnia. Et nemo nimium beatus est; Quo modo autem optimum, si bonum praeterea nullum est? Multoque hoc melius nos veriusque quam Stoici. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Materiam vero rerum et copiam apud hos exilem, apud illos uberrimam reperiemus. Sed emolumenta communia esse dicuntur, recte autem facta et peccata non habentur communia. Si de re disceptari oportet, nulla mihi tecum, Cato, potest esse dissensio.\r\n\r\nVideamus igitur sententias eorum, tum ad verba redeamus. Quid adiuvas? Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Audeo dicere, inquit.\r\n\r\nSed vos squalidius, illorum vides quam niteat oratio. Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter.\r\n\r\nSed tu istuc dixti bene Latine, parum plane. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Quid autem habent admirationis, cum prope accesseris? Tecum optime, deinde etiam cum mediocri amico. Si quicquam extra virtutem habeatur in bonis.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 14,
+    "fields": {
+      "title": "Inde sermone vario sex illa a Dipylo stadia confecimus.",
+      "author": 2,
+      "publication_date": "2015-08-26",
+      "category": 2,
+      "hero_image": "images/demo/14.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Huic mori optimum esse propter desperationem sapientiae, illi propter spem vivere. Negat esse eam, inquit, propter se expetendam. Nam his libris eum malo quam reliquo ornatu villae delectari. Morbo gravissimo affectus, exul, orbus, egens, torqueatur eculeo: quem hunc appellas, Zeno? Nihil minus, contraque illa hereditate dives ob eamque rem laetus. Duo Reges: constructio interrete. Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur.\r\n\r\nCollige omnia, quae soletis: Praesidium amicorum. Itaque mihi non satis videmini considerare quod iter sit naturae quaeque progressio. An est aliquid, quod te sua sponte delectet? Sed tamen est aliquid, quod nobis non liceat, liceat illis. Nescio quo modo praetervolavit oratio. Idem iste, inquam, de voluptate quid sentit? Vidit Homerus probari fabulam non posse, si cantiunculis tantus irretitus vir teneretur; Quamquam te quidem video minime esse deterritum. Tecum optime, deinde etiam cum mediocri amico. Videsne quam sit magna dissensio?\r\n\r\nHaeret in salebra. Quid enim me prohiberet Epicureum esse, si probarem, quae ille diceret? Atque ab his initiis profecti omnium virtutum et originem et progressionem persecuti sunt. Sin autem est in ea, quod quidam volunt, nihil impedit hanc nostram comprehensionem summi boni. Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.\r\n\r\nSed quae tandem ista ratio est? Ut scias me intellegere, primum idem esse dico voluptatem, quod ille don. Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse; Non autem hoc: igitur ne illud quidem. Verum hoc idem saepe faciamus. Tum Quintus: Est plane, Piso, ut dicis, inquit. Sit, inquam, tam facilis, quam vultis, comparatio voluptatis, quid de dolore dicemus? Quo studio Aristophanem putamus aetatem in litteris duxisse? Ita graviter et severe voluptatem secrevit a bono. Ut placet, inquit, etsi enim illud erat aptius, aequum cuique concedere. Id mihi magnum videtur. Primum cur ista res digna odio est, nisi quod est turpis?\r\n\r\nNam quibus rebus efficiuntur voluptates, eae non sunt in potestate sapientis. Quid igitur, inquit, eos responsuros putas? Quae quidem vel cum periculo est quaerenda vobis; Quid enim ab antiquis ex eo genere, quod ad disserendum valet, praetermissum est? Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Itaque ad tempus ad Pisonem omnes. Quippe: habes enim a rhetoribus;",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 15,
+    "fields": {
+      "title": "Quis Aristidem non mortuum diligit?",
+      "author": 2,
+      "publication_date": "2015-09-04",
+      "category": 2,
+      "hero_image": "images/demo/15.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Audeo dicere, inquit. Verba tu fingas et ea dicas, quae non sentias? Teneo, inquit, finem illi videri nihil dolere. Poterat autem inpune; Equidem soleo etiam quod uno Graeci, si aliter non possum, idem pluribus verbis exponere. Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. Duo Reges: constructio interrete. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. Quid enim est a Chrysippo praetermissum in Stoicis? Apparet statim, quae sint officia, quae actiones.\r\n\r\nPraeterea sublata cognitione et scientia tollitur omnis ratio et vitae degendae et rerum gerendarum. Sed ad bona praeterita redeamus.\r\n\r\nHoc ne statuam quidem dicturam pater aiebat, si loqui posset. Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud negotii nihil habemus. Si enim ad populum me vocas, eum. Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Esse enim, nisi eris, non potes.\r\n\r\nIlle incendat? Itaque fecimus. Sed tamen omne, quod de re bona dilucide dicitur, mihi praeclare dici videtur. Ea possunt paria non esse. Nobis aliter videtur, recte secusne, postea; Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus; Quae cum essent dicta, discessimus. Et quod est munus, quod opus sapientiae?\r\n\r\nIdemque diviserunt naturam hominis in animum et corpus. Dic in quovis conventu te omnia facere, ne doleas. Si longus, levis. Summum a vobis bonum voluptas dicitur. Hinc ceteri particulas arripere conati suam quisque videro voluit afferre sententiam. Cum sciret confestim esse moriendum eamque mortem ardentiore studio peteret, quam Epicurus voluptatem petendam putat. Naturales divitias dixit parabiles esse, quod parvo esset natura contenta. Hanc ergo intuens debet institutum illud quasi signum absolvere. Quid dubitas igitur mutare principia naturae?",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 16,
+    "fields": {
+      "title": "Quicquid porro animo cernimus, id omne oritur a sensibus; Dat enim intervalla et relaxat.",
+      "author": 4,
+      "publication_date": "2015-09-23",
+      "category": 4,
+      "hero_image": "images/demo/16.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ab his oratores, ab his imperatores ac rerum publicarum principes extiterunt. Sed haec in pueris; Nobis aliter videtur, recte secusne, postea; Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Est enim effectrix multarum et magnarum voluptatum. Sed ad haec, nisi molestum est, habeo quae velim.\r\n\r\nQuem si tenueris, non modo meum Ciceronem, sed etiam me ipsum abducas licebit. Progredientibus autem aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Sapiens autem semper beatus est et est aliquando in dolore; Quae cum dixisset paulumque institisset, Quid est? Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Nec vero intermittunt aut admirationem earum rerum, quae sunt ab antiquis repertae, aut investigationem novarum. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat?\r\n\r\nDuo Reges: constructio interrete. Universa enim illorum ratione cum tota vestra confligendum puto. Proclivi currit oratio. At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit. Aliter enim explicari, quod quaeritur, non potest. Memini me adesse P.\r\n\r\nAddidisti ad extremum etiam indoctum fuisse. Vitiosum est enim in dividendo partem in genere numerare. Equidem, sed audistine modo de Carneade? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Cur igitur easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non intellegatur? Quae cum praeponunt, ut sit aliqua rerum selectio, naturam videntur sequi; Quid, quod homines infima fortuna, nulla spe rerum gerendarum, opifices denique delectantur historia? Sic enim censent, oportunitatis esse beate vivere.\r\n\r\nRespondent extrema primis, media utrisque, omnia omnibus. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Quae quidem vel cum periculo est quaerenda vobis; Qui enim existimabit posse se miserum esse beatus non erit. Nemo igitur esse beatus potest. Quae qui non vident, nihil umquam magnum ac cognitione dignum amaverunt. Sed ad haec, nisi molestum est, habeo quae velim. Ad eas enim res ab Epicuro praecepta dantur.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 17,
+    "fields": {
+      "title": "Vitiosum est enim in dividendo partem in genere numerare.",
+      "author": 3,
+      "publication_date": "2015-11-01",
+      "category": 3,
+      "hero_image": "images/demo/17.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid de Pythagora? Urgent tamen et nihil remittunt. Duo Reges: constructio interrete. Eadem fortitudinis ratio reperietur. Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Sed residamus, inquit, si placet.\r\n\r\nAliter enim explicari, quod quaeritur, non potest. Quamquam id quidem licebit iis existimare, qui legerint. Itaque nostrum est-quod nostrum dico, artis est-ad ea principia, quae accepimus. Pauca mutat vel plura sane; Quam nemo umquam voluptatem appellavit, appellat; Sapiens autem semper beatus est et est aliquando in dolore; Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Consequens enim est et post oritur, ut dixi.\r\n\r\nDe quibus cupio scire quid sentias. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Tanta vis admonitionis inest in locis; Cum audissem Antiochum, Brute, ut solebam, cum M. Quid ergo aliud intellegetur nisi uti ne quae pars naturae neglegatur? Scisse enim te quis coarguere possit? Nonne videmus quanta perturbatio rerum omnium consequatur, quanta confusio? Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.\r\n\r\nHabes, inquam, Cato, formam eorum, de quibus loquor, philosophorum. Quamquam haec quidem praeposita recte et reiecta dicere licebit. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Negat enim summo bono afferre incrementum diem. At enim, qua in vita est aliquid mali, ea beata esse non potest. Quid censes in Latino fore? Que Manilium, ab iisque M. Quos quidem tibi studiose et diligenter tractandos magnopere censeo.\r\n\r\nIam illud quale tandem est, bona praeterita non effluere sapienti, mala meminisse non oportere? Sed quid attinet de rebus tam apertis plura requirere? Primum divisit ineleganter; Quid enim est a Chrysippo praetermissum in Stoicis? Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Cupiditates non Epicuri divisione finiebat, sed sua satietate. Quae si potest singula consolando levare, universa quo modo sustinebit? Quae tamen a te agetur non melior, quam illae sunt, quas interdum optines. Cui Tubuli nomen odio non est? Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse;",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 18,
+    "fields": {
+      "title": "Omnia peccata paria dicitis.",
+      "author": 4,
+      "publication_date": "2015-11-12",
+      "category": 3,
+      "hero_image": "images/demo/18.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bestiarum vero nullum iudicium puto. Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Isto modo ne improbos quidem, si essent boni viri. Simus igitur contenti his. Duo Reges: constructio interrete. Eam si varietatem diceres, intellegerem, ut etiam non dicente te intellego; Qui potest igitur habitare in beata vita summi mali metus? Nescio quo modo praetervolavit oratio. Sin laboramus, quis est, qui alienae modum statuat industriae?\r\n\r\nTollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Quae quo sunt excelsiores, eo dant clariora indicia naturae. O magnam vim ingenii causamque iustam, cur nova existeret disciplina! Perge porro. Collatio igitur ista te nihil iuvat. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Tuo vero id quidem, inquam, arbitratu. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur?\r\n\r\nCum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Quia voluptatem hanc esse sentiunt omnes, quam sensus accipiens movetur et iucunditate quadam perfunditur. Haec quo modo conveniant, non sane intellego. Paulum, cum regem Persem captum adduceret, eodem flumine invectio? Bonum integritas corporis: misera debilitas. Minime vero, inquit ille, consentit. Etenim semper illud extra est, quod arte comprehenditur. Immo videri fortasse. Haec quo modo conveniant, non sane intellego. Ut in geometria, prima si dederis, danda sunt omnia.\r\n\r\nQuod iam a me expectare noli. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Cuius similitudine perspecta in formarum specie ac dignitate transitum est ad honestatem dictorum atque factorum. Illa videamus, quae a te de amicitia dicta sunt. Paupertas si malum est, mendicus beatus esse nemo potest, quamvis sit sapiens. Ut pulsi recurrant? Dicet pro me ipsa virtus nec dubitabit isti vestro beato M.\r\n\r\nSed ad haec, nisi molestum est, habeo quae velim. Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Obsecro, inquit, Torquate, haec dicit Epicurus? Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Illi enim inter se dissentiunt. Sed tamen intellego quid velit. Septem autem illi non suo, sed populorum suffragio omnium nominati sunt.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 19,
+    "fields": {
+      "title": "Ergo id est convenienter naturae vivere, a natura discedere.",
+      "author": 4,
+      "publication_date": "2015-11-22",
+      "category": 3,
+      "hero_image": "images/demo/19.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboro autem non sine causa; Non enim iam stirpis bonum quaeret, sed animalis. Quare attende, quaeso. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete. Nec vero hoc oratione solum, sed multo magis vita et factis et moribus comprobavit.\r\n\r\nItaque contra est, ac dicitis; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Ut aliquid scire se gaudeant? Id mihi magnum videtur. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. At hoc in eo M. Dici enim nihil potest verius. Quo studio Aristophanem putamus aetatem in litteris duxisse?\r\n\r\nOmnes enim iucundum motum, quo sensus hilaretur. Honesta oratio, Socratica, Platonis etiam. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit. Ratio quidem vestra sic cogit. Invidiosum nomen est, infame, suspectum.\r\n\r\nQuis Aristidem non mortuum diligit? Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. Quid est igitur, inquit, quod requiras? Solum praeterea formosum, solum liberum, solum civem, stultost;\r\n\r\nTecum optime, deinde etiam cum mediocri amico. Ait enim se, si uratur, Quam hoc suave! dicturum. Animum autem reliquis rebus ita perfecit, ut corpus; Itaque his sapiens semper vacabit. Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur;",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 20,
+    "fields": {
+      "title": "Age, inquies, ista parva sunt.",
+      "author": 3,
+      "publication_date": "2016-01-14",
+      "category": 3,
+      "hero_image": "images/demo/20.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Haec quo modo conveniant, non sane intellego. At ego quem huic anteponam non audeo dicere; Familiares nostros, credo, Sironem dicis et Philodemum, cum optimos viros, tum homines doctissimos. Nunc omni virtuti vitium contrario nomine opponitur. Animum autem reliquis rebus ita perfecit, ut corpus; Quo plebiscito decreta a senatu est consuli quaestio Cn. Duo Reges: constructio interrete. Duarum enim vitarum nobis erunt instituta capienda. Primum in nostrane potestate est, quid meminerimus?\r\n\r\nQuid enim? Sine ea igitur iucunde negat posse se vivere? Sit enim idem caecus, debilis. Si autem id non concedatur, non continuo vita beata tollitur. Scrupulum, inquam, abeunti; Quod autem ratione actum est, id officium appellamus. Respondeat totidem verbis. Nos vero, inquit ille;\r\n\r\nQuid dubitas igitur mutare principia naturae? Sed vos squalidius, illorum vides quam niteat oratio.\r\n\r\nPotius inflammat, ut coercendi magis quam dedocendi esse videantur. Tubulo putas dicere? Ita enim vivunt quidam, ut eorum vita refellatur oratio. Dolor ergo, id est summum malum, metuetur semper, etiamsi non aderit; Sed tamen est aliquid, quod nobis non liceat, liceat illis. Hic ambiguo ludimur.\r\n\r\nIlli enim inter se dissentiunt. Sit hoc ultimum bonorum, quod nunc a me defenditur; Tuo vero id quidem, inquam, arbitratu. Sed quid minus probandum quam esse aliquem beatum nec satis beatum? Quae similitudo in genere etiam humano apparet. Omnia peccata paria dicitis. Quid ergo aliud intellegetur nisi uti ne quae pars naturae neglegatur? Duo enim genera quae erant, fecit tria. Progredientibus autem aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Non autem hoc: igitur ne illud quidem.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 21,
+    "fields": {
+      "title": "Nec vero alia sunt quaerenda contra Carneadeam illam sententiam.",
+      "author": 2,
+      "publication_date": "2016-03-08",
+      "category": 4,
+      "hero_image": "images/demo/21.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum ageremus, inquit, vitae beatum et eundem supremum diem, scribebamus haec. Ut non sine causa ex iis memoriae ducta sit disciplina. Rhetorice igitur, inquam, nos mavis quam dialectice disputare? Cum audissem Antiochum, Brute, ut solebam, cum M. Si mala non sunt, iacet omnis ratio Peripateticorum. Quo plebiscito decreta a senatu est consuli quaestio Cn. Duo Reges: constructio interrete. Quod ea non occurrentia fingunt, vincunt Aristonem; Sapiens autem semper beatus est et est aliquando in dolore; Quorum altera prosunt, nocent altera.\r\n\r\nConferam tecum, quam cuique verso rem subicias; Que Manilium, ab iisque M. Qui igitur convenit ab alia voluptate dicere naturam proficisci, in alia summum bonum ponere? Non enim ipsa genuit hominem, sed accepit a natura inchoatum. Haec para/doca illi, nos admirabilia dicamus. Id mihi magnum videtur. Quorum sine causa fieri nihil putandum est. Haeret in salebra. Uterque enim summo bono fruitur, id est voluptate. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit.\r\n\r\nNobis aliter videtur, recte secusne, postea; Istam voluptatem perpetuam quis potest praestare sapienti? Ex quo intellegitur officium medium quiddam esse, quod neque in bonis ponatur neque in contrariis. Magna laus. Cupiditates non Epicuri divisione finiebat, sed sua satietate. Aliter enim nosmet ipsos nosse non possumus.\r\n\r\nLuxuriam non reprehendit, modo sit vacua infinita cupiditate et timore. Nulla profecto est, quin suam vim retineat a primo ad extremum. Is es profecto tu. Quoniam, si dis placet, ab Epicuro loqui discimus. Illum mallem levares, quo optimum atque humanissimum virum, Cn. Haec et tu ita posuisti, et verba vestra sunt. Sed in rebus apertissimis nimium longi sumus. Si quae forte-possumus. Quid est enim aliud esse versutum? At ille pellit, qui permulcet sensum voluptate.\r\n\r\nEt quod est munus, quod opus sapientiae? Tu quidem reddes; Sed ad bona praeterita redeamus. Vestri haec verecundius, illi fortasse constantius. Ut scias me intellegere, primum idem esse dico voluptatem, quod ille don. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore, frangi, succumbere. Quis enim potest ea, quae probabilia videantur ei, non probare? Quae est igitur causa istarum angustiarum?",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 22,
+    "fields": {
+      "title": "Dolere malum est: in crucem qui agitur, beatus esse non potest.",
+      "author": 2,
+      "publication_date": "2016-03-27",
+      "category": 1,
+      "hero_image": "images/demo/22.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Quae similitudo in genere etiam humano apparet.\r\n\r\nSit hoc ultimum bonorum, quod nunc a me defenditur; Etiam beatissimum? Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Haec igitur Epicuri non probo, inquam. Sed nunc, quod agimus; Duo Reges: constructio interrete.\r\n\r\nIn eo enim positum est id, quod dicimus esse expetendum. Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus deserenda est. Mihi enim erit isdem istis fortasse iam utendum. At enim hic etiam dolore. Conferam tecum, quam cuique verso rem subicias; Quae similitudo in genere etiam humano apparet.\r\n\r\nSed quid sentiat, non videtis. Egone quaeris, inquit, quid sentiam? Quodsi ipsam honestatem undique pertectam atque absolutam. Et ille ridens: Video, inquit, quid agas; Te enim iudicem aequum puto, modo quae dicat ille bene noris. Aliter enim explicari, quod quaeritur, non potest. Nam de isto magna dissensio est.\r\n\r\nItaque fecimus. Cur, nisi quod turpis oratio est? Qui autem esse poteris, nisi te amor ipse ceperit? Qui autem esse poteris, nisi te amor ipse ceperit? At enim sequor utilitatem. Equidem etiam Epicurum, in physicis quidem, Democriteum puto. Itaque in rebus minime obscuris non multus est apud eos disserendi labor. Portenta haec esse dicit, neque ea ratione ullo modo posse vivi; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 23,
+    "fields": {
+      "title": "Non est igitur voluptas bonum.",
+      "author": 4,
+      "publication_date": "2016-06-03",
+      "category": 3,
+      "hero_image": "images/demo/23.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Et non ex maxima parte de tota iudicabis? Istic sum, inquit. Duo Reges: constructio interrete. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Cum audissem Antiochum, Brute, ut solebam, cum M. Praeclare enim Plato: Beatum, cui etiam in senectute contigerit, ut sapientiam verasque opiniones assequi possit. Vitae autem degendae ratio maxime quidem illis placuit quieta.\r\n\r\nVenit ad extremum; Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere. Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem requiris? Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Atque his de rebus et splendida est eorum et illustris oratio. Quae est igitur causa istarum angustiarum? Quid de Pythagora? Eaedem res maneant alio modo.\r\n\r\nSeptem autem illi non suo, sed populorum suffragio omnium nominati sunt. Atque haec ita iustitiae propria sunt, ut sint virtutum reliquarum communia. Atque haec ita iustitiae propria sunt, ut sint virtutum reliquarum communia. Quo modo autem optimum, si bonum praeterea nullum est? Ita enim vivunt quidam, ut eorum vita refellatur oratio. Cur, nisi quod turpis oratio est? Ita enim vivunt quidam, ut eorum vita refellatur oratio.\r\n\r\nSic consequentibus vestris sublatis prima tolluntur. Ita multa dicunt, quae vix intellegam. Atqui reperies, inquit, in hoc quidem pertinacem; Quae quo sunt excelsiores, eo dant clariora indicia naturae. Deprehensus omnem poenam contemnet.\r\n\r\nSuo genere perveniant ad extremum; Sed tu istuc dixti bene Latine, parum plane. Quid de Platone aut de Democrito loquar? Re mihi non aeque satisfacit, et quidem locis pluribus. Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Quis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 24,
+    "fields": {
+      "title": "Sic enim censent, oportunitatis esse beate vivere.",
+      "author": 4,
+      "publication_date": "2016-07-19",
+      "category": 4,
+      "hero_image": "images/demo/24.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat enim summo bono afferre incrementum diem. Restatis igitur vos; Quae cum essent dicta, discessimus. Cum praesertim illa perdiscere ludus esset.\r\n\r\nNon igitur bene. Duo Reges: constructio interrete.\r\n\r\nTu vero, inquam, ducas licet, si sequetur; Sic enim censent, oportunitatis esse beate vivere. Nihil opus est exemplis hoc facere longius. Duae sunt enim res quoque, ne tu verba solum putes. Cyrenaici quidem non recusant; Quod ea non occurrentia fingunt, vincunt Aristonem; Si quicquam extra virtutem habeatur in bonis.\r\n\r\nVidesne quam sit magna dissensio? Dat enim intervalla et relaxat. Quod autem magnum dolorem brevem, longinquum levem esse dicitis, id non intellego quale sit. Quid dubitas igitur mutare principia naturae?\r\n\r\nQuae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur. Non est ista, inquam, Piso, magna dissensio. Idemque diviserunt naturam hominis in animum et corpus. Nulla profecto est, quin suam vim retineat a primo ad extremum.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
+  },
+  {
+    "model": "article.article",
+    "pk": 25,
+    "fields": {
+      "title": "Si quicquam extra virtutem habeatur in bonis",
+      "author": 2,
+      "publication_date": "2016-11-04",
+      "category": 4,
+      "hero_image": "images/demo/25.jpg",
+      "optional_image": "",
+      "body_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui, inquam, Cato, si istud optinueris, traducas me ad te totum licebit. Itaque his sapiens semper vacabit. Quis est tam dissimile homini. Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Non enim solum Torquatus dixit quid sentiret, sed etiam cur. Nunc haec primum fortasse audientis servire debemus. Duo Reges: constructio interrete. Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.\r\n\r\nAlterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Hanc ergo intuens debet institutum illud quasi signum absolvere.\r\n\r\nQuae quidem sapientes sequuntur duce natura tamquam videntes; Quod totum contra est. Stoicos roga. Nihil illinc huc pervenit.\r\n\r\nErgo ita: non posse honeste vivi, nisi honeste vivatur? Certe non potest.\r\n\r\nQuis est enim, in quo sit cupiditas, quin recte cupidus dici possit? Sed quia studebat laudi et dignitati, multum in virtute processerat.",
+      "created_at": "2016-04-14T18:39:55.136Z",
+      "updated_at": "2016-04-15T00:16:16.281Z"
+    }
   }
+
 ]
