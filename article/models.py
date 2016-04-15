@@ -10,3 +10,7 @@ class Category(models.Model):
     def __str__(self):
         """We want the string representation of Category model to be its title"""
         return self.title
+
+    class Meta:
+        """Django will call this as Categorys, lets make it grammatically correct!"""
+        verbose_name_plural = "categories"
