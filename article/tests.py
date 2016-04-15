@@ -25,3 +25,12 @@ class ArticleModelTest(TestCase):
         '''Test whether the string representation is equal to its title'''
         article = Article(title="My Article Title")
         self.assertEquals(str(article), article.title)
+
+
+
+class ResponseCodeTest(TestCase):
+    """The unit test cases for checking the correct response codes for various URL's"""
+
+    def test_homepage(self):
+        response = self.client.get('/')
+        self.assertEquals(response.status_code, 200)
