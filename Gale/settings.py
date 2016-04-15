@@ -124,6 +124,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+MEDIA_URL = '/media/'
+
+
 """
 When we will be running the tests of Travis, we will be utilizing MySQL, PostgreSQL and SQLite database
 backend. When the Travis test session runs, depending on which database engine needs to be used and environment
