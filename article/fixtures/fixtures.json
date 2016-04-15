@@ -174,7 +174,7 @@
     "pk": 6,
     "fields": {
       "title": "Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Duo Reges: constructio interrete.",
-      "slug": "apud-ceteros-autem-philosophos-qui-quaesivit-aliquid-tacet;-duo-reges-constructio-interrete",
+      "slug": "apud-ceteros-autem-philosophos-qui-quaesivit-aliquid-tacet-duo-reges-constructio-interrete",
       "author": 2,
       "publication_date": "2013-07-22",
       "category": 1,
@@ -238,7 +238,7 @@
     "pk": 10,
     "fields": {
       "title": "Tu vero, inquam, ducas licet, si sequetur; Quos quidem tibi studiose et diligenter tractandos magnopere censeo.",
-      "slug": "tu-vero-inquam-ducas-licet-si-sequetur;-quos-quidem-tibi-studiose-et-diligenter-tractandos-magnopere-censeo",
+      "slug": "tu-vero-inquam-ducas-licet-si-sequetur-quos-quidem-tibi-studiose-et-diligenter-tractandos-magnopere-censeo",
       "author": 2,
       "publication_date": "2014-12-23",
       "category": 4,
@@ -334,7 +334,7 @@
     "pk": 16,
     "fields": {
       "title": "Quicquid porro animo cernimus, id omne oritur a sensibus; Dat enim intervalla et relaxat.",
-      "slug": "quicquid-porro-animo-cernimus-id-omne-oritur-a-sensibus;-dat-enim-intervalla-et-relaxat",
+      "slug": "quicquid-porro-animo-cernimus-id-omne-oritur-a-sensibus-dat-enim-intervalla-et-relaxat",
       "author": 4,
       "publication_date": "2015-09-23",
       "category": 4,
