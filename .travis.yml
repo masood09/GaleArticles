@@ -17,6 +17,7 @@ env:
 install:
   - pip install -r requirements/testing.txt
   - pip install -q Django==$DJANGO_VERSION
+  - pip install -q coveralls
 
 # What script to run?
 script:
