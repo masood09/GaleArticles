@@ -36,6 +36,7 @@ $RECYCLE.BIN\
 
 # files to ignore
 db.sqlite3
+Gale/config/local_settings.py
 
 !uploads/
 

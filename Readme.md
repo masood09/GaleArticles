@@ -97,3 +97,8 @@ python manage.py runserver
 ```
 
 Open your browser and point it to [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+
+# Overriding the settings
+
+You can over-ride any settings of the application by creating **local_settings.py** file in Gale/config file. Any settings defined thier would over-ride the settings specified in settings.py file.

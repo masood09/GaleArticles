@@ -148,3 +148,11 @@ elif os.getenv('TRAVIS_DB', None) == 'mysql':
         from .config.travis_db_mysql import *
     except ImportError as e:
         pass
+
+"""
+Import any local settings if present. This allows us to have a independent settings file for individual environment.
+"""
+try:
+    from .config.local_settings import *
+except ImportError as e:
+    pass
