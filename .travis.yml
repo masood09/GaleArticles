@@ -20,4 +20,8 @@ install:
 
 # What script to run?
 script:
-  - python manage.py test
+  - coverage run manage.py test
+
+# What to do after success?
+after_success:
+  - coveralls

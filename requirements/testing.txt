@@ -1,2 +1,3 @@
 django-webtest==1.7.8
 WebTest==2.0.21
+coverage==4.0.3
