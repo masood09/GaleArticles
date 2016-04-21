@@ -31,6 +31,7 @@ gulp.task('sass', function() {
 gulp.task('js', function() {
     return gulp.src([
             'bower_components/jquery/dist/jquery.js',
+            'bower_components/vue/dist/vue.js',
             'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
             'bower_components/slick-carousel/slick/slick.js',
 
