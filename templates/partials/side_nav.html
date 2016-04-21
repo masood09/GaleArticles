@@ -5,7 +5,10 @@
         </li>
         <li>
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
+                <form action="{% url 'search' %}" method="get">
+                    <input type="text" class="form-control" name="q" placeholder="Search for...">
+                </form>
+
                 <span class="input-group-btn">
                     <button class="btn btn-default" type="button">
                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>

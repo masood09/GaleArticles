@@ -19,4 +19,5 @@ class ArticleSerializer(serializers.ModelSerializer):
             'optional_image',
             'title',
             'body_text',
+            'slug'
         )

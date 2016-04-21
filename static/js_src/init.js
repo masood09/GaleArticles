@@ -17,13 +17,41 @@ Vue.config.devtools = false;
 Vue.config.delimiters = ['${', '}'];
 Vue.config.unsafeDelimiters = ['{!!', '!!}'];
 
+Vue.filter('trim_linebreaks', function(value) {
+    value = value.replace(/(?:\r\n|\r|\n)/g, '<br>');
+
+    return value.split(" ").splice(0, 50).join(" ");
+});
+
+article__search = {
+    init: function() {
+        new Vue({
+            el: '#vue__container',
+
+            data: {
+                articles: []
+            },
+            
+            ready: function() {
+                _search_term = jQuery('#article__search_input').val();
+
+                this.$http({url: jQuery('#api__article_search_url').val(), method: 'GET', params: {q: _search_term}}).then(function (response) {
+                    this.$set('articles', response.data)
+                }, function (response) {
+                    console.log(response);
+                });
+            }
+        });
+    }
+};
+
 article__detail = {
     init: function() {
         new Vue({
             el: '#vue__container',
 
             data: {
-                article: [],
+                article: []
             },
 
             ready: function() {

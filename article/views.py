@@ -56,3 +56,14 @@ def detail(request, slug):
             'next_articles': next_articles,
         }
     )
+
+def search(request):
+    term = request.GET.get("q", '')
+
+    return render(
+        request,
+        'search.html',
+        {
+            'term': term,
+        }
+    )

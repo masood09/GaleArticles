@@ -54,6 +54,11 @@ class ResponseCodeTest(TestCase):
         response = self.client.get('/blog/asdf/')
         self.assertEquals(response.status_code, 404)
 
+    def test_search_page(self):
+        """When user visits search page, response code should be 200"""
+        response = self.client.get('/search/')
+        self.assertEquals(response.status_code, 200)
+
     def test_api_article_details(self):
         """When REST API endpoint for article detail is hit, response code should be 200"""
         response = self.client.get('/api/articles/1/')
