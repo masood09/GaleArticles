@@ -2,6 +2,7 @@ from django.test import TestCase
 
 from .models import Category
 from .models import Article
+from .serializers import ArticleSerializer
 
 
 class CategoryModelTest(TestCase):
@@ -52,3 +53,14 @@ class ResponseCodeTest(TestCase):
         """When the page does not exist, visiting the page should return 404"""
         response = self.client.get('/blog/asdf/')
         self.assertEquals(response.status_code, 404)
+
+class ArticleSerializerTest(TestCase):
+    """The unit test cases for checking the ArticleSerializer"""
+
+    fixtures = ['fixtures.json']
+
+    def test_article_author_serializer(self):
+        article = Article.objects.get(pk=1)
+        serialized = ArticleSerializer(article)
+        self.assertEquals(serialized['author'].value, 'tamaraollis')
+        self.assertEquals(serialized['publication_date'].value, 'January 01, 2013')
