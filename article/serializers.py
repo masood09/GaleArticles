@@ -17,5 +17,6 @@ class ArticleSerializer(serializers.ModelSerializer):
             'publication_date',
             'hero_image',
             'optional_image',
+            'title',
             'body_text',
         )
