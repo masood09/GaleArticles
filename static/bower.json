@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap-sass": "3.3.6",
     "slick-carousel": "*",
-    "vue": "*"
+    "vue": "*",
+    "vue-resource": "*"
   }
 }
