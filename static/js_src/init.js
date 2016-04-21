@@ -35,11 +35,37 @@ article__search = {
             ready: function() {
                 _search_term = jQuery('#article__search_input').val();
 
-                this.$http({url: jQuery('#api__article_search_url').val(), method: 'GET', params: {q: _search_term}}).then(function (response) {
-                    this.$set('articles', response.data)
-                }, function (response) {
-                    console.log(response);
-                });
+                if (_search_term) {
+                    this.$http({
+                        url: jQuery('#api__article_search_url').val(),
+                        method: 'GET',
+                        params: {q: _search_term}
+                    }).then(function (response) {
+                        this.$set('articles', response.data)
+                    }, function (response) {
+                        console.log(response);
+                    });
+                }
+            },
+
+            methods: {
+                searchSubmit: function (event) {
+                    event.preventDefault();
+
+                    _search_term = jQuery('#article__search_input').val();
+
+                    if (_search_term) {
+                        this.$http({
+                            url: jQuery('#api__article_search_url').val(),
+                            method: 'GET',
+                            params: {q: _search_term}
+                        }).then(function (response) {
+                            this.$set('articles', response.data)
+                        }, function (response) {
+                            console.log(response);
+                        });
+                    }
+                }
             }
         });
     }
