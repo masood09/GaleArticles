@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^blog/(?P<slug>[\w\-]+)/$', views.detail, name='article__detail'),
 
     url(r'^api/articles/(?P<pk>[\d]+)/$', ArticleViewSet.as_view({'get': 'retrieve'}), name="api__article_detail"),
+    url(r'^api/articles/search/(?P<term>[\w\-]+)/$', ArticleViewSet.as_view({'get': 'search'}), name="api__article_search"),
 
     url(r'^admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
