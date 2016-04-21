@@ -1,41 +1,47 @@
 {% extends "base.html" %}
 
+{% block footer_js %}
+    <script type="text/javascript">
+        article__detail.init();
+    </script>
+{%  endblock %}
+
 {% block content %}
-    <header class="intro">
-        <div class="intro__image" style="background-image: url('{{ MEDIA_URL }}{{ article.hero_image }}')"></div>
-    </header>
+    <input type="hidden" id="api__article_detail_url" value="{% url 'api__article_detail' article.id %}">
 
-    <div class="container">
-        <div class="row">
-            {% if article.optional_image %}
+    <div id="vue__container">
+        <header class="intro">
+            <div class="intro__image" v-bind:style="hero_style"></div>
+        </header>
+
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-8">
-            {% else %}
-                <div class="col-sm-12">
-            {% endif %}
-                <div class="post">
-                    <h1 class="post-title">
-                        {{ article.title }}
-                    </h1>
+                    <div class="post">
+                        <h1 class="post-title">
+                            ${ article.title }
+                        </h1>
 
-                    <p class="post-meta">
-                        Posted by <a href="#">{{ article.author }}</a> on {{ article.publication_date|date:'F jS, Y' }}
-                    </p>
+                        <p class="post-meta">
+                            Posted by <a href="#">${ article.author }</a> on ${ article.publication_date }
+                        </p>
 
-                    <div class="post-body">
-                        {{ article.body_text|linebreaks }}
+                        <div class="post-body">
+                            <p>
+                                {!! body_text_linebreaks !!}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4" v-if="article.optional_image">
+                    <div class="post">
+                        <img v-bind:src="article.optional_image" class="post-optional-image">
                     </div>
                 </div>
             </div>
-
-            {% if article.optional_image %}
-                <div class="col-sm-4">
-                    <div class="post">
-                        <img src="{{ MEDIA_URL }}{{ article.optional_image }}" class="post-optional-image">
-                    </div>
-                </div>
-            {% endif %}
         </div>
-    </div>
 
-    <hr>
+        <hr>
+    </div>
 {% endblock content %}
