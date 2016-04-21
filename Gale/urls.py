@@ -19,9 +19,13 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from article import views
+from article.api_views import ArticleViewSet
 
 urlpatterns = [
     url(r'^$', views.listing, name='index'),
     url(r'^blog/(?P<slug>[\w\-]+)/$', views.detail, name='article__detail'),
+
+    url(r'^api/articles/(?P<pk>[\d]+)/$', ArticleViewSet.as_view({'get': 'retrieve'}), name="api__article_detail"),
+
     url(r'^admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
