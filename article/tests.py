@@ -54,6 +54,16 @@ class ResponseCodeTest(TestCase):
         response = self.client.get('/blog/asdf/')
         self.assertEquals(response.status_code, 404)
 
+    def test_api_article_details(self):
+        """When REST API endpoint for article detail is hit, response code should be 200"""
+        response = self.client.get('/api/articles/1/')
+        self.assertEquals(response.status_code, 200)
+
+    def test_api_article_search(self):
+        """When REST API endpoint for article search is hit, response code should be 200"""
+        response = self.client.get('/api/articles/search/')
+        self.assertEquals(response.status_code, 200)
+
 
 class ArticleSerializerTest(TestCase):
     """The unit test cases for checking the ArticleSerializer"""
