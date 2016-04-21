@@ -10,7 +10,7 @@ from .serializers import ArticleSerializer
 
 class ArticleViewSet(viewsets.ViewSet):
     """
-    A simple ViewSet for retrieving articles.
+    A simple ViewSet for retrieving and searching articles.
     """
 
     def retrieve(self, request, pk=None):
@@ -21,7 +21,12 @@ class ArticleViewSet(viewsets.ViewSet):
         serializer = ArticleSerializer(article)
         return Response(serializer.data)
 
-    def search(self, request, term=None):
+    def search(self, request):
+        """
+        View used to search articles. We will search only using Title.
+        """
+        term = request.GET.get("q", '')
+
         queryset = Article.objects.filter(
             publication_date__lte = datetime.date.today()
         ).filter(
