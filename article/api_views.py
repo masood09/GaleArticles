@@ -14,6 +14,9 @@ class ArticleViewSet(viewsets.ViewSet):
     """
 
     def retrieve(self, request, pk=None):
+        """
+        View used to retrieve a single article item. 404 if not found.
+        """
         queryset = Article.objects.filter(
             publication_date__lte = datetime.date.today()
         )
