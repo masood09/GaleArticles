@@ -54,12 +54,14 @@ class ResponseCodeTest(TestCase):
         response = self.client.get('/blog/asdf/')
         self.assertEquals(response.status_code, 404)
 
+
 class ArticleSerializerTest(TestCase):
     """The unit test cases for checking the ArticleSerializer"""
 
     fixtures = ['fixtures.json']
 
     def test_article_author_serializer(self):
+        """Test whether the author name and date format is correct"""
         article = Article.objects.get(pk=1)
         serialized = ArticleSerializer(article)
         self.assertEquals(serialized['author'].value, 'tamaraollis')
