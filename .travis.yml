@@ -28,10 +28,12 @@ install:
   - pip install -q coveralls
   - if [[ $TRAVIS_DB == mysql ]]; then pip install -q mysqlclient; fi
   - if [[ $TRAVIS_DB == postgres ]]; then pip install -q psycopg2; fi
+  - npm install
 
 # What script to run?
 script:
   - coverage run manage.py test
+  - npm run unit
 
 # What to do after success?
 after_success:
