@@ -33,6 +33,11 @@
     @click="toggleSidebar()">
     <i class="fa fa-bars fa-lg white"></i>
   </a>
+
+  <a class="nav-search fixed"
+    v-link="{ name: 'search' }">
+    <i class="fa fa-search fa-lg white"></i>
+  </a>
 </template>
 
 <script>

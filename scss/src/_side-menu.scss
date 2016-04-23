@@ -23,6 +23,31 @@ a.nav-expander {
   }
 }
 
+a.nav-search {
+  background: none repeat scroll 0 0 $text-color;
+  color: white;
+  display: block;
+  font-size: 15px;
+  font-weight: 800;
+  height: 50px;
+  margin-right: 0;
+  padding: 15px 24px 30px;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 10px;
+  z-index: 12;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.fixed {
+    position: fixed;
+  }
+}
+
 nav {
   background: $text-color;
   display: block;

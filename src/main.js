@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import List from './components/List.vue'
 import Detail from './components/Detail.vue'
+import Search from './components/Search.vue'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
@@ -28,6 +29,10 @@ router.map({
   '/article/:articleId': {
     name: 'articleDetail',
     component: Detail
+  },
+  '/search': {
+    name: 'search',
+    component: Search
   }
 })
 
