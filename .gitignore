@@ -67,7 +67,8 @@ htmlcov/
 
 ##Frontend Build Tools##
 
-/static/*
+static/*
+!static/.gitkeep
 
 node_modules/
 dist/
