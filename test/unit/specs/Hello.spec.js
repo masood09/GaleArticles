@@ -6,7 +6,7 @@ describe('Hello.vue', () => {
     const vm = new Vue({
       template: '<div><hello></hello></div>',
       components: { Hello }
-    }).$mount();
+    }).$mount()
     expect(vm.$el.querySelector('.hello h1').textContent).to.contain('Hello World!')
   })
-});
+})

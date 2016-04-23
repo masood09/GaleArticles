@@ -11,4 +11,4 @@ module.exports = {
       .assert.elementCount('p', 3)
       .end()
   }
-};
+}
