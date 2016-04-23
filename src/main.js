@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import List from './components/List.vue'
+import Detail from './components/Detail.vue'
 
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
@@ -23,6 +24,10 @@ const router = new VueRouter()
 router.map({
   '/article': {
     component: List
+  },
+  '/article/:articleId': {
+    name: 'articleDetail',
+    component: Detail
   }
 })
 

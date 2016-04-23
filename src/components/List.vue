@@ -1,6 +1,7 @@
 <template>
 
-  <header class="intro" v-if="randomArticle.id">
+  <header class="intro"
+    v-if="randomArticle.id">
     <div class="intro__image"
       v-bind:style="hero_style">
     </div>
@@ -10,7 +11,9 @@
         <div class="col-xs-12">
           <div class="post">
             <h1 class="post-title">
-              <a href="#">{{ randomArticle.title }}</a>
+              <a v-link="{ name: 'articleDetail', params: { articleId: randomArticle.id } }">
+                {{ randomArticle.title }}
+              </a>
             </h1>
 
             <p class="post-meta">
@@ -33,7 +36,7 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="post" v-for="article in articles">
           <h2 class="post-title">
-            <a href="#">
+            <a v-link="{ name: 'articleDetail', params: { articleId: article.id } }">
               {{ article.title }}
             </a>
           </h2>
