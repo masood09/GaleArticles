@@ -72,3 +72,10 @@ htmlcov/
 /static/npm.log
 /static/css/
 /static/js/
+
+node_modules/
+dist/
+npm-debug.log
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
