@@ -39,24 +39,14 @@ class ResponseCodeTest(TestCase):
         response = self.client.get('/')
         self.assertEquals(response.status_code, 200)
 
-    def test_detail_page_proper(self):
-        """When the page exists and is published (we are using fixtures to seed the data) we should get 200"""
-        response = self.client.get('/blog/omnia-peccata-paria-dicitis/')
+    def test_api_articles(self):
+        """When REST API endpoint for articles list is hit, response code should be 200"""
+        response = self.client.get('/api/articles/')
         self.assertEquals(response.status_code, 200)
 
-    def test_detail_page_not_published(self):
-        """When the page is not published yet (ie., publishing date is in future), we need to send 404 response"""
-        response = self.client.get('/blog/si-quicquam-extra-virtutem-habeatur/')
-        self.assertEquals(response.status_code, 404)
-
-    def test_detail_page_not_exist(self):
-        """When the page does not exist, visiting the page should return 404"""
-        response = self.client.get('/blog/asdf/')
-        self.assertEquals(response.status_code, 404)
-
-    def test_search_page(self):
-        """When user visits search page, response code should be 200"""
-        response = self.client.get('/search/')
+    def test_api_article_random(self):
+        """When REST API endpoint for random article is hit, response code should be 200"""
+        response = self.client.get('/api/articles/random/')
         self.assertEquals(response.status_code, 200)
 
     def test_api_article_details(self):

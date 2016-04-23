@@ -23,8 +23,6 @@ from article.api_views import ArticleViewSet
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^search/$', views.search, name='search'),
-    url(r'^blog/(?P<slug>[\w\-]+)/$', views.detail, name='article__detail'),
 
     url(r'^api/articles/$', ArticleViewSet.as_view({'get': 'list'}), name="api__article_list"),
     url(r'^api/articles/random/$', ArticleViewSet.as_view({'get': 'random'}), name="api__article_random"),
