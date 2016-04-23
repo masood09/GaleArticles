@@ -67,3 +67,17 @@ class ArticleViewSet(viewsets.ViewSet):
 
         serializer = ArticleSerializer(queryset, many=True)
         return Response(serializer.data)
+
+
+    def next(self, request):
+        """
+        View used to return the What to Next articles.
+        """
+        queryset = Article.objects.filter(
+            publication_date__lte=datetime.date.today()
+        ).order_by(
+            '?'
+        )[:4]
+
+        serializer = ArticleSerializer(queryset, many=True)
+        return Response(serializer.data)

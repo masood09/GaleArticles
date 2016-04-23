@@ -1,28 +1,16 @@
 .read__next {
   h2.read__next-title {
-    padding: 0 20px;
+    margin-bottom: 30px;
   }
 
-  .slick__carousel {
-    .slider__item {
+  .read__next-item {
+    margin-bottom: 50px;
+
+    .read__next-item-image {
       img {
-        max-height: 200px;
-      }
-
-      &.slick-slide {
-        padding: 0 20px;
-
-        img {
-          height: auto;
-          max-height: none;
-        }
+        width: 100%;
+        margin-bottom: 10px;
       }
     }
-  }
-}
-
-.slick-slide {
-  img {
-    width: 100%;
   }
 }
