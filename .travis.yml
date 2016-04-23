@@ -6,8 +6,6 @@ python:
   - "2.7"
   - "3.4"
   - "3.5"
-  - "3.5-dev" # 3.5 development brach
-  - "nightly" # currently points to 3.6-dev
 
 services:
   - mysql
