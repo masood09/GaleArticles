@@ -22,10 +22,12 @@ from article import views
 from article.api_views import ArticleViewSet
 
 urlpatterns = [
-    url(r'^$', views.listing, name='index'),
+    url(r'^$', views.index, name='index'),
     url(r'^search/$', views.search, name='search'),
     url(r'^blog/(?P<slug>[\w\-]+)/$', views.detail, name='article__detail'),
 
+    url(r'^api/articles/$', ArticleViewSet.as_view({'get': 'list'}), name="api__article_list"),
+    url(r'^api/articles/random/$', ArticleViewSet.as_view({'get': 'random'}), name="api__article_random"),
     url(r'^api/articles/(?P<pk>[\d]+)/$', ArticleViewSet.as_view({'get': 'retrieve'}), name="api__article_detail"),
     url(r'^api/articles/search/$', ArticleViewSet.as_view({'get': 'search'}), name="api__article_search"),
 
