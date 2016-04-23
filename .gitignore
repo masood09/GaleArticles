@@ -67,11 +67,7 @@ htmlcov/
 
 ##Frontend Build Tools##
 
-/static/bower_components/
-/static/node_modules/
-/static/npm.log
-/static/css/
-/static/js/
+/static/*
 
 node_modules/
 dist/
