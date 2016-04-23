@@ -2,8 +2,7 @@
   <nav>
     <ul class="list-unstyled main-menu">
       <li class="text-right close__menu">
-        <a href="#"
-          @click="toggleSidebar()">
+        <a @click="toggleSidebar()">
           X
         </a>
       </li>
