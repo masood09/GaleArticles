@@ -1,6 +1,8 @@
 <template>
   <sidebar></sidebar>
 
+  <router-view></router-view>
+
   <component_footer></component_footer>
 </template>
 
