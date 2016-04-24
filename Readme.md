@@ -5,7 +5,7 @@
 
 # Introduction
 
-GaleArticles is a simple Django application. This application only does two things. Display a list of articles and view the complete articles. As a bonus some randomness is thrown around!!
+GaleArticles is a simple Django based application. The frontend is written using Vue.js. This application only does limited things. Display a list of articles, view the complete article and search the articles. As a bonus some randomness is thrown around!!
 
 # Issues
 
@@ -63,28 +63,19 @@ python manage.py createsuperuser
 python manage.py loaddata fixtures.json
 ```
 
+To build the frontend assets, follow the instructions to build the frontend build toolchain.
+
+```bash
+gem install --no-ri --no-rdoc sass
+npm install
+npm run build
+```
+
 To test the application and gather coverage information execute the following commands
 
 ```bash
 coverage run manage.py test
 coverage html
-```
-
-To build the frontend assests, follow the instuctions to build the frontend build toolchain.
-
-```bash
-gem install --no-ri --no-rdoc sass
-npm install -g bower
-npm install -g gulp
-cd static
-npm install
-bower install
-```
-
-To build the CSS and JS assets use the following command (in static directory)
-
-```bash
-gulp
 ```
 
 Phew!!
